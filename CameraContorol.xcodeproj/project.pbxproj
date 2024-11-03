@@ -10,9 +10,22 @@
 		72D53E2C2CD7308A0053898C /* CameraContorol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraContorol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7261301E2CD789B100455EA3 /* Exceptions for "CameraContorol" folder in "CameraContorol" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 72D53E2B2CD7308A0053898C /* CameraContorol */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		72D53E2E2CD7308A0053898C /* CameraContorol */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7261301E2CD789B100455EA3 /* Exceptions for "CameraContorol" folder in "CameraContorol" target */,
+			);
 			path = CameraContorol;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,8 @@
 				DEVELOPMENT_TEAM = TVH687AC7F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraContorol/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラで撮影するために許可が必要です";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +299,8 @@
 				DEVELOPMENT_TEAM = TVH687AC7F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraContorol/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラで撮影するために許可が必要です";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
